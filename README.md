@@ -55,8 +55,8 @@
    * **Authorities** - store authorities of users
    
 
-![mysql](https://raw.githubusercontent.com/MoonSulong/Ecommerce/master/img/DatabaseSchema.png)
-> MySQL database design
+![mysql](https://raw.githubusercontent.com/MoonSulong/Ecommerce/master/img/mysql.png)
+> MySQL database schema
 
 ## 5. Continue...
    * **Singleton pattern**: 
