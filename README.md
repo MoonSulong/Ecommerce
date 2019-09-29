@@ -6,10 +6,10 @@
 * [2. Infrastructure Design](#2-infrastructure-design)
 * [3. Java Servlet Design](#3-java-servlet-design)
 * [4. Database Implementation](#4-database-implementation)
-* [5. Design pattern](#5-design-pattern)
+* [5. Continue](#5-continue...)
 
 ## 1. Project Description 
-- [Link to the web application](http://13.58.22.177:8080/Jupiter/)
+
 - `Spring Web MVC` provides Model-View-Controller architecture to develop flexible web applications
    * **Model** carries application data
    * **View** renders User interface (UI)
