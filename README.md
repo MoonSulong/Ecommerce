@@ -16,7 +16,7 @@
    * **Controller** takes care of processing user request and calling back end services.
    
 ![Spring MVC framework](https://raw.githubusercontent.com/MoonSulong/Ecommerce/master/img/SpringMVC.png)
-> Spring MVV framework
+> Spring MVC framework
 
 ## 2. Infrastructure Design
 - 3-tier architecture
@@ -58,6 +58,9 @@
 ![mysql](https://raw.githubusercontent.com/MoonSulong/Ecommerce/master/img/mysql.png)
 > MySQL database schema
 
-## 5. Continue...
-   * **Singleton pattern**: 
-      * ...
+## 5. Flow States
+- View: pauses the flow and invites the user to participate in the flow
+- Action: business logic takes place
+- Subflow: new flow
+- End: flow termination
+
