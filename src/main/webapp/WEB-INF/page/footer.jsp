@@ -25,7 +25,7 @@
             <a href="<c:url value="/getAllProducts" />">Products</a>
         </p>
 
-        <p>Created by LaiOffer &copy; 2019</p>
+        <p>Created by Sulong Zhou &copy; 2019</p>
     </div>
 
 </footer>

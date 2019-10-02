@@ -42,8 +42,10 @@ public class ProductController {
 	@RequestMapping(value = "/admin/delete/{productId}", method = RequestMethod.GET)
 	public String deleteProduct(@PathVariable(value = "productId") int productId) {
 		// for MAC : Path path = Paths.get("/Users/xxx/products/" + productId + ".jpg");
+		// for Linux
+		//Path path = Paths.get("/home/ubuntu/products/" + productId + ".jpg");
 		// For windows
-		Path path = Paths.get("C:\\products\\" + productId + ".jpg");
+		Path path = Paths.get("C:\\Users\\Sulong\\Documents\\Intern\\project_laioffer\\products\\" + productId + ".jpg");
 
 		if (Files.exists(path)) {
 			try {
@@ -72,7 +74,9 @@ public class ProductController {
 		MultipartFile image = product.getProductImage();
 		if (image != null && !image.isEmpty()) {
 			// Path path = Paths.get("/Users/xxx/products/" + product.getId() + ".jpg");
-			Path path = Paths.get("C:\\products\\" + product.getId() + ".jpg");
+			// for Linux
+			//Path path = Paths.get("/home/ubuntu/products/" + product.getId() + ".jpg");
+			Path path = Paths.get("C:\\Users\\Sulong\\Documents\\Intern\\project_laioffer\\products\\" + product.getId() + ".jpg");
 
 			try {
 				image.transferTo(new File(path.toString()));

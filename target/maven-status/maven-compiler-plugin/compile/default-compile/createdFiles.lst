@@ -2,11 +2,13 @@ onlineShop\dao\CartItemDaoImpl.class
 onlineShop\dao\CartDao.class
 onlineShop\service\CartItemService.class
 onlineShop\controller\CartController.class
+onlineShop\dao\SalesOrderDaoImpl.class
 onlineShop\service\CustomerServiceImpl.class
 onlineShop\dao\CustomerDao.class
 onlineShop\service\CustomerService.class
 onlineShop\dao\CustomerDaoImpl.class
 onlineShop\model\Product.class
+onlineShop\service\SalesOrderService.class
 onlineShop\model\BillingAddress.class
 onlineShop\model\User.class
 onlineShop\controller\CartItemController.class
@@ -17,6 +19,8 @@ onlineShop\service\CartServiceImpl.class
 onlineShop\controller\HomePageController.class
 onlineShop\controller\ProductController.class
 onlineShop\model\Customer.class
+onlineShop\service\SalesOrderServiceImpl.class
+onlineShop\controller\OrderController.class
 onlineShop\dao\ProductDaoImpl.class
 onlineShop\controller\RegistrationController.class
 onlineShop\dao\ProductDao.class
@@ -25,6 +29,7 @@ onlineShop\dao\CartDaoImpl.class
 onlineShop\ApplicationConfig.class
 onlineShop\dao\CartItemDao.class
 onlineShop\service\ProductService.class
+onlineShop\dao\SalesOrderDao.class
 onlineShop\service\ProductServiceImpl.class
 onlineShop\SecurityConfig.class
 onlineShop\service\CartService.class

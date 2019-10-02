@@ -14,10 +14,19 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	private DataSource dataSource;
 
 	protected void configure(HttpSecurity http) throws Exception {
-		http.csrf().disable().formLogin().loginPage("/login").and().authorizeRequests().antMatchers("/cart/**")
-				.hasAuthority("ROLE_USER").antMatchers("/get*/**").hasAnyAuthority("ROLE_USER", "ROLE_ADMIN")
-				.antMatchers("/admin*/**").hasAuthority("ROLE_ADMIN").anyRequest().permitAll().and().logout()
-				.logoutUrl("/logout");
+		http.csrf().disable()
+				   .formLogin()
+				   .loginPage("/login")
+				   .and()
+				   .authorizeRequests()
+				   .antMatchers("/cart/**")
+				   .hasAuthority("ROLE_USER")
+				   .antMatchers("/get*/**")
+				   .hasAnyAuthority("ROLE_USER", "ROLE_ADMIN")
+				   .antMatchers("/admin*/**")
+				   .hasAuthority("ROLE_ADMIN")
+				   .anyRequest().permitAll().and().logout()
+				   .logoutUrl("/logout");
 
 	}
 

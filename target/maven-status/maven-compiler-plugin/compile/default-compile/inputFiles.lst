@@ -1,5 +1,7 @@
+C:\Users\Sulong\Documents\Project\proj\onlineShop\src\main\java\onlineShop\controller\OrderController.java
 C:\Users\Sulong\Documents\Project\proj\onlineShop\src\main\java\onlineShop\service\CartItemServiceImpl.java
 C:\Users\Sulong\Documents\Project\proj\onlineShop\src\main\java\onlineShop\model\BillingAddress.java
+C:\Users\Sulong\Documents\Project\proj\onlineShop\src\main\java\onlineShop\dao\SalesOrderDao.java
 C:\Users\Sulong\Documents\Project\proj\onlineShop\src\main\java\onlineShop\controller\ProductController.java
 C:\Users\Sulong\Documents\Project\proj\onlineShop\src\main\java\onlineShop\dao\CartItemDaoImpl.java
 C:\Users\Sulong\Documents\Project\proj\onlineShop\src\main\java\onlineShop\service\CartServiceImpl.java
@@ -11,10 +13,13 @@ C:\Users\Sulong\Documents\Project\proj\onlineShop\src\main\java\onlineShop\dao\C
 C:\Users\Sulong\Documents\Project\proj\onlineShop\src\main\java\onlineShop\model\Cart.java
 C:\Users\Sulong\Documents\Project\proj\onlineShop\src\main\java\onlineShop\model\CartItem.java
 C:\Users\Sulong\Documents\Project\proj\onlineShop\src\main\java\onlineShop\model\Product.java
+C:\Users\Sulong\Documents\Project\proj\onlineShop\src\main\java\onlineShop\service\SalesOrderService.java
 C:\Users\Sulong\Documents\Project\proj\onlineShop\src\main\java\onlineShop\service\ProductServiceImpl.java
 C:\Users\Sulong\Documents\Project\proj\onlineShop\src\main\java\onlineShop\model\ShippingAddress.java
+C:\Users\Sulong\Documents\Project\proj\onlineShop\src\main\java\onlineShop\dao\SalesOrderDaoImpl.java
 C:\Users\Sulong\Documents\Project\proj\onlineShop\src\main\java\onlineShop\model\Authorities.java
 C:\Users\Sulong\Documents\Project\proj\onlineShop\src\main\java\onlineShop\controller\CartItemController.java
+C:\Users\Sulong\Documents\Project\proj\onlineShop\src\main\java\onlineShop\service\SalesOrderServiceImpl.java
 C:\Users\Sulong\Documents\Project\proj\onlineShop\src\main\java\onlineShop\dao\CartItemDao.java
 C:\Users\Sulong\Documents\Project\proj\onlineShop\src\main\java\onlineShop\SecurityConfig.java
 C:\Users\Sulong\Documents\Project\proj\onlineShop\src\main\java\onlineShop\controller\RegistrationController.java
