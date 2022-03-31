@@ -8,7 +8,7 @@
 	<version>1.0</version>
 
 	<properties>
-		<springframework.version>5.3.14</springframework.version>
+		<springframework.version>5.3.18</springframework.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
